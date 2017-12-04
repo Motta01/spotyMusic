@@ -4,6 +4,7 @@
   "description": "Aplicacion musica",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,8 +25,7 @@
     "jwt-simple": "^0.5.1",
     "moment": "^2.19.3",
     "mongoose": "^4.13.6",
-    "mongoose-pagination": "^1.0.0",
-    "mongose": "0.0.2-security"
+    "mongoose-pagination": "^1.0.0"
   },
   "devDependencies": {
     "nodemon": "^1.12.1"
