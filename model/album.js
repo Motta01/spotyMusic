@@ -4,10 +4,10 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var AlbuemSchema = Schema({
-        title: string,
-        description: string,
+        title: String,
+        description: String,
         year: Number,
-        image: string,
+        image: String,
         artist: {type: Schema.ObjectId, ref: 'Artist'}
 });
 
