@@ -2,7 +2,7 @@
 
 var mongoose = require('mongoose');
 var app = require('./app');
-var port = process.env.PORT || 3976;
+var port = process.env.PORT || 3966; 
 mongoose.connect('mongodb://localhost:27017/spotymusic',(error, Response) =>{
 if(error){
     throw error;
